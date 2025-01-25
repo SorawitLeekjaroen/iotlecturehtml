@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Table Tag (Block Tag) -->
+    <h2>ตารางแบบที่ 1:ทุก Cell มีขนาดเท่ากัน</h2>
+    <table border="1" width="500px">
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+        <td>e</td>
+      </tr>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+        <td>e</td>
+      </tr>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+        <td>e</td>
+      </tr>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+        <td>d</td>
+        <td>e</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    <br />
+    <h2>ตารางแบบที่ 2:แต่ละ Call ในแนวตั้งอาจะจะมีขนาดเท่ากัน</h2>
+    <table border="1" width="500px">
+      <tr>
+        <td colspan="2">11</td>
+        <td>11</td>
+        <td>11</td>
+        <td rowspan="2">11</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td colspan="2" rowspan="2">22</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td rowspan="2">33</td>
+        <td>33</td>
+        <td>33</td>
+      </tr>
+      <tr>
+        <td>44</td>
+        <td colspan="3">44</td>
+      </tr>
+    </table>
+    <h2>ตารางแบบที่ 2:ทำกันเองจ้าาาาาาาา</h2>
+    <table border="1" width="500px">
+      <tr>
+        <td colspan="2" rowspan="2">11</td>
+        <td>11</td>
+        <td colspan="2">11</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>22</td>
+        <td rowspan="4">22</td>
+      </tr>
+      <tr>
+        <td>33</td>
+        <td colspan="3">33</td>
+      </tr>
+      <tr>
+        <td rowspan="3">44</td>
+        <td colspan="3">44</td>
+      </tr>
+      <tr>
+        <td>55</td>
+        <td rowspan="2">55</td>
+        <td>55</td>
+      </tr>
+      <tr>
+        <td>66</td>
+        <td>66</td>
+        <td>66</td>
+      </tr>
+    </table>
+    <h2>ตารางแบบที่ 3:แบบมีหัวตาราง(แนวนอน)</h2>
+    <table border="1" width="500px">
+      <tr>
+        <th>No.</th>
+        <th>ชื่อ-สกุล</th>
+        <th>อายุ</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>นายสมชาย</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>นางสมหญิง</td>
+        <td>15</td>
+      </tr>
+    </table>
+    <bt>
+        <ht><bt>
+      <h2>ตารางแบบที่ 3:แบบมีหัวตาราง(แนวตั้ง)</h2>
+      <table border="1" width="500px">
+        <tr>
+          <th>ภาคเหนือ</th>
+          <td>เชียงใหม่</td>
+          <td>เชียงราย</td>
+          <td>น่าน</td>
+        </tr>
+        <tr>
+            <th>ภาคกลาง</th>
+            <td>กรุงเทพ</td>
+            <td>ชัยนาท</td>
+            <td>ราชบุรี</td>
+          </tr>
+          <tr>
+            <th>ภาคใต้</th>
+            <td>ตรัง</td>
+            <td>ชุมพร</td>
+            <td>พัทลุง</td>
+          </tr>
+      </table>
+      <h2>ตารางแบบที่ 4:แบบที่มีการแบ่งสัดส่วนของตาราง</h2>
+      <table border="1" width="500px">
+        <caption><h3>รายการซื้อสินค้า</h3></caption>
+        <thead>
+          <tr>
+            <th>NO.</th>
+            <th>ชื่อสินค้า</th>
+            <th>ราคา</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>ปากกา</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>ดินสอ</td>
+            <td>150</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>ยางลบ</td>
+            <td>25</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">รวม</td>
+            <td>225</td>
+          </tr>
+        </tfoot>
+
+      </table>
+
+      <br><br><br></br></br></br>
+  </body>
+</html>
